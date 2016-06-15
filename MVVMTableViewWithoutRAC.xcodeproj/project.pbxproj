@@ -21,7 +21,6 @@
 		AAC41EE61D11415A00EEF7ED /* BaseTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EE51D11415A00EEF7ED /* BaseTableViewModel.m */; };
 		AAC41EED1D11420700EEF7ED /* RootViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EEC1D11420700EEF7ED /* RootViewModel.m */; };
 		AAC41EF31D11439A00EEF7ED /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EF21D11439A00EEF7ED /* MessageModel.m */; };
-		AAC41EF61D11521400EEF7ED /* storehouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAC41EF51D11521400EEF7ED /* storehouse.plist */; };
 		AAC41EF91D115B7100EEF7ED /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EF81D115B7100EEF7ED /* BaseViewModel.m */; };
 		AAC41EFC1D115CA400EEF7ED /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = AAC41EFB1D115CA400EEF7ED /* response.json */; };
 		AAC41F001D115D5300EEF7ED /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EFF1D115D5300EEF7ED /* HttpClient.m */; };
@@ -53,7 +52,6 @@
 		AAC41EEC1D11420700EEF7ED /* RootViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewModel.m; sourceTree = "<group>"; };
 		AAC41EF11D11439A00EEF7ED /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
 		AAC41EF21D11439A00EEF7ED /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
-		AAC41EF51D11521400EEF7ED /* storehouse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = storehouse.plist; sourceTree = "<group>"; };
 		AAC41EF71D115B7100EEF7ED /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
 		AAC41EF81D115B7100EEF7ED /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
 		AAC41EFB1D115CA400EEF7ED /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 		AAC41EC21D113D6900EEF7ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAC41EF51D11521400EEF7ED /* storehouse.plist */,
 				AAC41EC31D113D6900EEF7ED /* main.m */,
 				AAC41EFB1D115CA400EEF7ED /* response.json */,
 			);
@@ -275,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC41EC91D113D6900EEF7ED /* Assets.xcassets in Resources */,
-				AAC41EF61D11521400EEF7ED /* storehouse.plist in Resources */,
 				AAC41EE21D113F8B00EEF7ED /* RootTableViewCell.xib in Resources */,
 				AAC41ECC1D113D6900EEF7ED /* LaunchScreen.storyboard in Resources */,
 				AAC41EFC1D115CA400EEF7ED /* response.json in Resources */,

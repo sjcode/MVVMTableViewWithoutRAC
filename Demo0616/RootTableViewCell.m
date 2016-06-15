@@ -9,11 +9,6 @@
 #import "RootTableViewCell.h"
 #import "UIImageView+WebCache.h"
 @interface RootTableViewCell()
-@property (weak, nonatomic) IBOutlet UILabel *nickname;
-@property (weak, nonatomic) IBOutlet UIImageView *avatavImageView;
-@property (weak, nonatomic) IBOutlet UILabel *content;
-@property (weak, nonatomic) IBOutlet UILabel *datetime;
-
 @end
 
 @implementation RootTableViewCell
@@ -29,4 +24,7 @@
     [self.avatavImageView sd_setImageWithURL:[NSURL URLWithString:model.avatarUrl]];
 }
 
++ (CGFloat)calculateHeight:(MessageModel*)model{
+    return 0;
+}
 @end

@@ -11,4 +11,10 @@
 
 @interface RootTableViewCell : UITableViewCell
 - (void)configCell:(MessageModel*)model;
++ (CGFloat)calculateHeight:(MessageModel*)model;
+
+@property (weak, nonatomic) IBOutlet UILabel *nickname;
+@property (weak, nonatomic) IBOutlet UIImageView *avatavImageView;
+@property (weak, nonatomic) IBOutlet UILabel *content;
+@property (weak, nonatomic) IBOutlet UILabel *datetime;
 @end

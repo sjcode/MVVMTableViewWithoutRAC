@@ -8,12 +8,10 @@
 
 #import "BaseTableViewController.h"
 #import "MJRefresh.h"
-#import "CBStoreHouseRefreshControl.h"
 #import "UIScrollView+EmptyDataSet.h"
 
 @interface BaseTableViewController ()<DZNEmptyDataSetDelegate, DZNEmptyDataSetSource>
 @property (nonatomic, weak, readwrite) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) CBStoreHouseRefreshControl *refreshControl;
 @property (nonatomic, assign) NSInteger page;
 @property (nonatomic, assign) NSInteger currentPage;
 @end
@@ -24,7 +22,7 @@
     [super viewDidLoad];
     
     self.navigationController.navigationBar.translucent = NO;
-    //self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.171 green:0.309 blue:0.378 alpha:1.000];
+    
     
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.171 green:0.309 blue:0.378 alpha:1.000];;
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
@@ -32,13 +30,15 @@
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(onEdit:)];
     
+    
+    
     if (self.viewModel.shouldPullToRefresh) {
         MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshTriggered:)];
         header.lastUpdatedTimeLabel.hidden = YES;
         self.tableView.mj_header = header;
         self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(refreshTriggered:)];
     }
-    
+    self.tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     self.tableView.tableFooterView = [UIView new];
 }
 
