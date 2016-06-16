@@ -38,6 +38,7 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - UITableView+FDTemplateLayoutCell (1.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.0)
   - OHHTTPStubs (~> 5.0.0)
   - SDWebImage (~> 3.7.6)
+  - UITableView+FDTemplateLayoutCell (~> 1.4)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -52,5 +54,6 @@ SPEC CHECKSUMS:
   MJRefresh: 53f348def11abbb5f8e1eaf15c39df742d543677
   OHHTTPStubs: a5d2e9eea07869d42ec03338325f398bc520e159
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
 
 COCOAPODS: 0.39.0

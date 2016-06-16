@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@interface ImageModel : NSObject
+@property (nonatomic, copy, readonly) NSString *imageUrl;
+@property (nonatomic, copy, readonly) NSString *desc;
+@end
+
 @interface MessageModel : NSObject
 - (instancetype)initWithDictionary:(NSDictionary*)data;
 
@@ -15,4 +20,5 @@
 @property (nonatomic, copy, readonly) NSString *avatarUrl;
 @property (nonatomic, copy, readonly) NSString *desc;
 @property (nonatomic, copy, readonly) NSString *datetime;
+@property (nonatomic, strong, readonly) NSArray *images;
 @end

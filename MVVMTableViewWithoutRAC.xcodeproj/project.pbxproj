@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		473AF15EA7144EC63EC817F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE3CD7AA21570244F013F8A /* libPods.a */; };
+		AA9681681D11B9B50065C8BC /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9681661D11B9B50065C8BC /* ImageCollectionViewCell.m */; };
+		AA9681691D11B9B50065C8BC /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9681671D11B9B50065C8BC /* ImageCollectionViewCell.xib */; };
 		AAC41EC41D113D6900EEF7ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EC31D113D6900EEF7ED /* main.m */; };
 		AAC41EC71D113D6900EEF7ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC41EC61D113D6900EEF7ED /* AppDelegate.m */; };
 		AAC41EC91D113D6900EEF7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC41EC81D113D6900EEF7ED /* Assets.xcassets */; };
@@ -29,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		A5D7DBBD522BCCE30FFC69C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9681651D11B9B50065C8BC /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		AA9681661D11B9B50065C8BC /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		AA9681671D11B9B50065C8BC /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		AAC41EBF1D113D6900EEF7ED /* MVVMTableViewWithoutRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTableViewWithoutRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC41EC31D113D6900EEF7ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC41EC51D113D6900EEF7ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -170,6 +175,9 @@
 				AAC41EDE1D113F8B00EEF7ED /* RootTableViewCell.h */,
 				AAC41EDF1D113F8B00EEF7ED /* RootTableViewCell.m */,
 				AAC41EE01D113F8B00EEF7ED /* RootTableViewCell.xib */,
+				AA9681651D11B9B50065C8BC /* ImageCollectionViewCell.h */,
+				AA9681661D11B9B50065C8BC /* ImageCollectionViewCell.m */,
+				AA9681671D11B9B50065C8BC /* ImageCollectionViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -275,6 +283,7 @@
 				AAC41EE21D113F8B00EEF7ED /* RootTableViewCell.xib in Resources */,
 				AAC41ECC1D113D6900EEF7ED /* LaunchScreen.storyboard in Resources */,
 				AAC41EFC1D115CA400EEF7ED /* response.json in Resources */,
+				AA9681691D11B9B50065C8BC /* ImageCollectionViewCell.xib in Resources */,
 				AAC41EDD1D113DAC00EEF7ED /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +354,7 @@
 				AAC41F031D11AAB000EEF7ED /* BaseNavigationController.m in Sources */,
 				AAC41EDC1D113DAC00EEF7ED /* RootViewController.m in Sources */,
 				AAC41EE11D113F8B00EEF7ED /* RootTableViewCell.m in Sources */,
+				AA9681681D11B9B50065C8BC /* ImageCollectionViewCell.m in Sources */,
 				AAC41EF91D115B7100EEF7ED /* BaseViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
